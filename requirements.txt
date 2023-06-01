@@ -6,7 +6,6 @@ scipy
 itsdangerous
 Jinja2
 matplotlib
-PyYAML
 nltk
 chatterbot-corpus
 psycopg2-binary
