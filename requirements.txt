@@ -6,7 +6,7 @@ itsdangerous==2.1.2
 Jinja2==3.1.2
 matplotlib==3.7.1
 ChatterBot==1.0.0
-PyYAML==3.13rc1
+PyYAML==4.2b4
 nltk==3.8.1
 chatterbot-corpus==1.2.0
 psycopg2-binary==2.9.3
