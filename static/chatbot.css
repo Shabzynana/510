@@ -1,0 +1,104 @@
+body {
+  font-family: monospace;
+  background-color: black;
+}
+
+h1 {
+  background-color: green;
+  color: black;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0;
+  padding: 10px;
+}
+
+.boxed {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 60px;
+  border: 1px solid white;
+}
+
+.box {
+  border: 2px solid white;
+}
+
+#chatbox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 60px;
+}
+
+#userInput {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+
+}
+
+#textInput {
+  width: 250px;
+  border: none;
+  /* border-bottom: 3px solid black; */
+  font-family: monospace;
+  font-size: 17px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  /* margin-left: 200px; */
+  /* margin-bottom: 10px; */
+
+}
+.userText {
+  color: black;
+  font-family: monospace;
+  font-size: 17px;
+  text-align: right;
+  line-height: 30px;
+}
+
+.userText span {
+  background-color: #e699ff;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#buttonInput {
+  padding: 3px;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.botText {
+  color: black;
+  font-family: monospace;
+  font-size: 17px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.botText span {
+  background-color: #ffdd99;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#tidbit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+}
+
+@media (max-width : 600px) {
+  .boxed {
+    width: 90%;
+  }
+}
