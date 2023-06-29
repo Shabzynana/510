@@ -16,7 +16,7 @@ chatbot = ChatBot(
         'maximum_similarity_threshold': 0.90
         }
     ],
-    database_uri = "postgresql://postgres:crSrMRs3DMoHfe1vmXGo@containers-us-west-52.railway.app:8061/railway"
+    database_uri = ""
 )
 
 
